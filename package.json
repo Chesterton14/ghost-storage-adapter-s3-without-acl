@@ -57,7 +57,7 @@
     "storage"
   ],
   "main": "index.js",
-  "name": "ghost-storage-adapter-s3-without-acl",
+  "name": "ghost-storage-adapter-aws-s3-without-acl",
   "repository": {
     "type": "git",
     "url": "https://github.com/Chesterton14/ghost-storage-adapter-s3-without-acl"
@@ -72,5 +72,5 @@
     "test": "exit 0",
     "travis-deploy-once": "travis-deploy-once"
   },
-  "version": "0.0.1"
+  "version": "1.0.0"
 }
