@@ -1,8 +1,7 @@
 {
   "author": {
-    "name": "Colin Meinke",
-    "email": "hello@colinmeinke.com",
-    "url": "https://colinmeinke.com"
+    "name": "Chesterton14",
+    "url": "https://github.com/Chesterton14"
   },
   "babel": {
     "plugins": [
@@ -24,7 +23,7 @@
     ]
   },
   "bugs": {
-    "url": "https://github.com/colinmeinke/ghost-storage-adapter-s3/issues"
+    "url": "https://github.com/colinmeinke/ghost-storage-adapter-s3-without-acl/issues"
   },
   "config": {
     "commitizen": {
@@ -48,7 +47,7 @@
     "standard": "^8.3.0",
     "travis-deploy-once": "^5.0.2"
   },
-  "homepage": "https://github.com/colinmeinke/ghost-storage-adapter-s3#readme",
+  "homepage": "https://github.com/colinmeinke/ghost-storage-adapter-s3-without-acl#readme",
   "license": "ISC",
   "keywords": [
     "adapter",
@@ -58,10 +57,10 @@
     "storage"
   ],
   "main": "index.js",
-  "name": "ghost-storage-adapter-s3",
+  "name": "ghost-storage-adapter-s3-without-acl",
   "repository": {
     "type": "git",
-    "url": "https://github.com/colinmeinke/ghost-storage-adapter-s3.git"
+    "url": "https://github.com/Chesterton14/ghost-storage-adapter-s3-without-acl"
   },
   "scripts": {
     "build": "babel ./src/index.js --out-file ./index.js",
@@ -73,5 +72,5 @@
     "test": "exit 0",
     "travis-deploy-once": "travis-deploy-once"
   },
-  "version": "0.0.0-development"
+  "version": "0.0.1"
 }
